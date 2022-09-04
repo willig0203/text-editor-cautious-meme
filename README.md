@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## This is a text editor that runs in your browser for a user to write and save notes or code snips so they can work online or off. The app is located on Heroku at [https://note-taker-gdw.herokuapp.com/](https://note-taker-gdw.herokuapp.com/).
+## This is a text editor that runs in your browser for a user to write and save notes or code snips so they can work online or off. The app is located on Heroku at [https://text-editor-cautious-meme.herokuapp.com/](https://text-editor-cautious-meme.herokuapp.com/).
 
 ## Table of Contents:
 
@@ -28,17 +28,25 @@ Step 4: You can install the app on your device by selecting install button.
 
 OR
 
-Use the live app on Heroku: [https://note-taker-gdw.herokuapp.com/](https://note-taker-gdw.herokuapp.com/)
+Use the live app on Heroku: [https://text-editor-cautious-meme.herokuapp.com/](https://text-editor-cautious-meme.herokuapp.com/)
 
 ## Screenshots
 
-|        <b>Image running on a computer</b>         |
+|       <b>Image running in a web browser</b>       |
 | :-----------------------------------------------: |
 | ![space-1.jpg](./assets/images/ScreenshotWeb.jpg) |
 
-|       <b>Image running on a mobile device</b>        |
-| :--------------------------------------------------: |
-| ![space-2.jpg](./assets/images/Screenshotmobile.jpg) |
+|                 <b>Image service worker</b>                 |
+| :---------------------------------------------------------: |
+| ![space-2.jpg](./assets/images/Screenshotserviceworker.jpg) |
+
+|                 <b>Image manifest</b>                  |
+| :----------------------------------------------------: |
+| ![space-3.jpg](./assets/images/Screenshotmanifest.jpg) |
+
+|              <b>Image installed as pwa</b>              |
+| :-----------------------------------------------------: |
+| ![space-3.jpg](./assets/images/Screenshotinstalled.jpg) |
 
 ## License
 
