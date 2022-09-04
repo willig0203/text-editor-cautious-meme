@@ -66,6 +66,22 @@ module.exports = () => {
           use: ["style-loader", "css-loader"],
         },
         {
+          test: /\.(gif|png|avif|jpe?g)$/,
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                name: "[name].[ext]",
+                outputPath: "assets/",
+              },
+            },
+          ],
+        },
+        {
+          test: /\.html$/,
+          use: ["html-loader"],
+        },
+        {
           test: /\.m?js$/,
           exclude: /node_modules/,
           use: {
