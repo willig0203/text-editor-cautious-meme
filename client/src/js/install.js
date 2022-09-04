@@ -7,7 +7,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   console.log("beforeinstallprompt");
 
-  deferredPrompt = e;
+  deferredPrompt = event;
   butInstall.style.visibility = "visible";
 });
 
