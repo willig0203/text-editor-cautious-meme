@@ -22,6 +22,13 @@ export const putDb = async (content) => {
   const jateDb = await openDB("jate_db", 1);
   const tx = jateDb.transaction("jate", "readwrite");
   const store = tx.objectStore("jate");
+
+  // Make a request to clear all the data out of the object store
+  const objectStoreRequest = store.clear();
+  objectStoreRequest.onsuccess = (event) => {
+    // report the success of our request
+    console.log("cleared database");
+  };
   // Use the .put() method on the store and pass in the content.
   const request = store.put({
     content: content,
